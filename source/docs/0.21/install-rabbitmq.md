@@ -31,7 +31,7 @@ _NOTE: the instructions use the official software repositories and packages for 
 Install Erlang from the official Erlang repositories:
 
 ~~~ shell
-sudo wget http://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
+sudo wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
 sudo dpkg -i erlang-solutions_1.0_all.deb
 sudo apt-get update
 sudo apt-get -y install erlang-nox=1:18.2
@@ -53,7 +53,7 @@ sudo dpkg -i rabbitmq-server_3.6.0-1_all.deb
 Install Erlang from the official Erlang repositories:
 
 ~~~ shell
-sudo wget http://packages.erlang-solutions.com/erlang-solutions-1.0-1.noarch.rpm
+sudo wget https://packages.erlang-solutions.com/erlang-solutions-1.0-1.noarch.rpm
 sudo rpm -Uvh erlang-solutions-1.0-1.noarch.rpm
 redhat_release=`cat /etc/redhat-release | awk {'print int($3)'}`
 sudo yum install -y erlang-18.2-1.el${redhat_release}
